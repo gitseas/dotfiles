@@ -1,1 +1,0 @@
-print(f"I am a hater")
