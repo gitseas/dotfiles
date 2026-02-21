@@ -1,0 +1,31 @@
+00:00:00.243779 VirtualBox GUI VM Selector Window 7.2.6 r172322 linux.amd64 (Jan 28 2026 17:11:43) release log
+00:00:00.243781 Log opened 2026-02-21T09:05:37.018116000Z
+00:00:00.243781 Build Type: release
+00:00:00.243782 OS Product: Linux
+00:00:00.243783 OS Release: 6.19.3-2-cachyos
+00:00:00.243783 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 20 Feb 2026 01:02:58 +0000
+00:00:00.243797 DMI Product Name: System Product Name
+00:00:00.243801 DMI Product Version: System Version
+00:00:00.243805 Firmware type: UEFI
+00:00:00.243981 Secure Boot: Disabled
+00:00:00.244004 Host RAM: 31805MB (31.0GB) total, 27906MB (27.2GB) available
+00:00:00.244007 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.244007 Process ID: 52189
+00:00:00.244007 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.244024 Qt version: 6.10.2
+00:00:00.244421 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.249052 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.506766 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 959x539 x 800x800
+00:00:00.509895 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.403680 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 957x539 x 800x800
+00:00:56.182755 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:32.706134 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:44.196850 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:48.042885 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:14.234017 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:48.212381 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:38.694520 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:39.930610 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:39.045352 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:44.426040 GUI: UICommon: Handling aboutToQuit request..
+00:12:45.542600 GUI: UICommon: aboutToQuit request handled!

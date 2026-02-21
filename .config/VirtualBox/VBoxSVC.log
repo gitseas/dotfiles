@@ -1,0 +1,450 @@
+00:00:00.000134 main     VirtualBox XPCOM Server 7.2.6 r172322 linux.amd64 (Jan 28 2026 17:11:43) release log
+00:00:00.000136 main     Log opened 2026-02-21T08:43:38.751597000Z
+00:00:00.000136 main     Build Type: release
+00:00:00.000138 main     OS Product: Linux
+00:00:00.000138 main     OS Release: 6.19.3-2-cachyos
+00:00:00.000139 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 20 Feb 2026 01:02:58 +0000
+00:00:00.000153 main     DMI Product Name: System Product Name
+00:00:00.000158 main     DMI Product Version: System Version
+00:00:00.000161 main     Firmware type: UEFI
+00:00:00.000357 main     Secure Boot: Disabled
+00:00:00.000385 main     Host RAM: 31805MB (31.0GB) total, 28549MB (27.8GB) available
+00:00:00.000387 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000387 main     Process ID: 45503
+00:00:00.000388 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.007518 main     IPC socket path: /tmp/.vbox-seas-ipc/ipcd
+00:00:00.013746 DCon01   VirtualBox: object creation starts
+00:00:00.013859 DCon01   Home directory: '/home/seas/.config/VirtualBox'
+00:00:00.014042 DCon01   Loading settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.015242 DCon01   HostDnsMonitor: initializing
+00:00:00.015476 DCon01   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.015484 DCon01   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.015502 DCon01   HostDnsMonitor: updating information
+00:00:00.015512 DCon01   HostDnsMonitor: old information
+00:00:00.015515 DCon01     no server entries
+00:00:00.015517 DCon01     no domain set
+00:00:00.015519 DCon01     no search string entries
+00:00:00.015522 DCon01   HostDnsMonitor: new information
+00:00:00.015524 DCon01     server 1: 127.0.0.53
+00:00:00.015527 DCon01     no domain set
+00:00:00.015529 DCon01     no search string entries
+00:00:00.017743 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.017873 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.018815 DCon01   Platform architecture set to 'x86'
+00:00:00.019145 DCon01   Loading settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:00.019345 DCon01   Platform architecture set to 'x86'
+00:00:00.019964 DCon01   VirtualBox: object created
+00:00:00.245923 DCon01   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.254068 DCon01   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:00:00.533783 DCon03   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.538145 DCon03   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:00:00.554630 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:00.555162 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:00.563839 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:00.655623 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:00.656199 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:00.920113 DCon03   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.925846 DCon03   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:00:04.456870 DCon02   Launched VM: 184181120 pid: 45566 (0xb1fe) frontend: GUI/Qt name: debian
+00:00:04.509633 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.550048 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.550740 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.593516 DCon05   Platform architecture set to 'x86'
+00:00:04.599410 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.607432 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.608034 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.872450 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.872829 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.909536 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.910265 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.915001 DCon07   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.935339 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:04.935747 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:04.935853 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.011168 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.038967 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.050931 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.069149 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.069664 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.070362 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.099176 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.099681 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.210689 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.211170 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.211727 DCon08   HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:05.211778 DCon08   HostDnsMonitorProxy::GetNameServers:
+00:00:05.211780 DCon08     name server 1: 127.0.0.53
+00:00:05.211825 DCon08   HostDnsMonitorProxy::GetSearchStrings:
+00:00:05.211826 DCon08     no search string entries
+00:00:05.218458 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.218906 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.219701 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.222079 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.234200 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.255635 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.256099 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.402436 DCon03   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:05.411878 DCon03   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:05.411981 DCon05   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.415254 DCon05   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:00:05.418881 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.426262 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:05.426634 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:08.230241 DCon07   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:08.234645 DCon07   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:18.581644 DCon08   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.661261 DCon08   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:00:18.719004 DCon05   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:18.723047 DCon05   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:20.033505 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:20.034557 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:20.038151 DCon05   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:20.062044 DCon10   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:20.067097 DCon10   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:25.654767 DCon11   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:25.661525 DCon11   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:29.487776 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:29.489201 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:29.491986 DCon10   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:29.516813 DCon05   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:29.572028 DCon05   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:44.323502 DCon05   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:44.387781 DCon05   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:44.729904 DCon05   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:44.735125 DCon05   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:00:47.018665 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:47.019040 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:47.019843 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:47.032605 DCon08   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:47.087656 DCon08   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:03:44.713076 DCon21   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:03:44.719097 DCon21   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:03:46.213391 DCon22   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:03:46.217323 DCon22   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:03:50.605086 DCon20   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:50.605839 DCon20   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:03:50.625565 DCon23   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:50.785735 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:50.786265 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:50.915335 DCon20   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:50.916248 DCon21   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:03:50.919975 DCon20   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:03:50.922196 DCon21   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:03:50.928998 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:50.947930 DCon25   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:50.948846 DCon25   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.041738 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.386062 DCon26   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:53.395241 DCon26   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.395403 DCon26   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.800744 DCon22   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:03:53.804657 DCon22   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:03:53.825379 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:53.835599 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.835788 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.875264 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:53.889324 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:03:53.889856 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:04:00.443821 DCon20   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:04:00.449269 DCon20   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:04:00.467537 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:04:00.507242 DCon23   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:04:00.507743 DCon23   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:04:00.560135 DCon23   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:04:00.650180 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:04:00.650557 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:04:00.908659 DCon21   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:00.913847 DCon21   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:14:59.099005 DCon40   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:14:59.102503 DCon40   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:14:59.111023 DCon40   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:14:59.128442 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:14:59.128824 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:14:59.190950 DCon25   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:14:59.237538 DCon25   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:14:59.239302 DCon25   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:15:51.327762 DCon40   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:15:51.334177 DCon40   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:15:52.696503 DCon21   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:15:52.701622 DCon21   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:15:52.719077 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:52.760614 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:15:52.762440 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:03.151639 DCon30   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:03.153032 DCon30   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:03.155679 DCon30   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:03.211619 DCon30   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:16:03.215855 DCon30   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:16:03.227825 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:03.228159 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:03.228607 DCon42   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:03.229489 DCon42   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:16:08.060334 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:08.060980 DCon30   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:16:08.184467 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:08.185137 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:08.390495 DCon38   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:08.395344 DCon38   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:16:10.181876 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:10.440392 DCon38   Platform architecture set to 'x86'
+00:16:10.449883 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:10.450018 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:10.679802 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:10.680242 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:10.885604 DCon38   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:10.940488 DCon38   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:16:24.724130 DCon40   Platform architecture set to 'x86'
+00:16:24.769928 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:24.770309 DCon38   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:16:24.828197 DCon38   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:16:24.910082 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:24.910776 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:25.209415 DCon38   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:25.231365 DCon38   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:16:26.255770 DCon38   Launched VM: 268496912 pid: 50119 (0xc3c7) frontend: GUI/Qt name: debian
+00:16:26.316438 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.316897 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.356340 DCon44   Platform architecture set to 'x86'
+00:16:26.367688 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.368027 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.655315 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.655730 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.677513 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.677834 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.679495 DCon44   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:26.695079 DCon43   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:16:26.695591 DCon43   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.695716 DCon43   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.717538 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.735844 DCon44   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.754849 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.755295 DCon38   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.755750 DCon38   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:26.791037 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.791440 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.888969 DCon40   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:16:26.889568 DCon40   HostDnsMonitorProxy::GetDomainName: no domain set
+00:16:26.889606 DCon40   HostDnsMonitorProxy::GetNameServers:
+00:16:26.889607 DCon40     name server 1: 127.0.0.53
+00:16:26.889683 DCon40   HostDnsMonitorProxy::GetSearchStrings:
+00:16:26.889684 DCon40     no search string entries
+00:16:26.895219 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.895637 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.896399 DCon42   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:26.900414 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.935306 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:26.935794 DCon40   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:27.084347 DCon40   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:16:27.090694 DCon40   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:16:27.090766 DCon42   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:27.099760 DCon42   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:16:27.109210 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:27.109687 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:39.063291 createDelete VISO: Handling file '/home/seas/VirtualBox VMs/debian/Unattended-752b54e8-3012-416e-ae35-818ac481bbc8-aux-iso.viso' references
+00:16:39.063465 createDelete VISO: file '/home/seas/VirtualBox VMs/debian/Unattended-752b54e8-3012-416e-ae35-818ac481bbc8-isolinux-isolinux.cfg' deleted
+00:16:39.063511 createDelete VISO: file '/home/seas/VirtualBox VMs/debian/Unattended-752b54e8-3012-416e-ae35-818ac481bbc8-isolinux-txt.cfg' deleted
+00:16:39.063564 createDelete VISO: file '/home/seas/VirtualBox VMs/debian/Unattended-752b54e8-3012-416e-ae35-818ac481bbc8-preseed.cfg' deleted
+00:16:39.063729 createDelete VISO: file '/home/seas/VirtualBox VMs/debian/Unattended-752b54e8-3012-416e-ae35-818ac481bbc8-vboxpostinstall.sh' deleted
+00:16:39.122728 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:16:39.126882 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:16:42.189160 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:42.189608 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:42.190253 DCon46   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:42.493303 DCon44   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:16:42.498419 DCon44   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:16:43.932420 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:43.934032 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:16:43.936780 DCon46   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:47.282359 DCon38   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:16:47.285691 DCon38   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:09.197884 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:17:09.199435 DCon47   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:17:09.202326 DCon47   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:17:09.225437 DCon48   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:09.244335 DCon48   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:19.051454 DCon47   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:19.054873 DCon47   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:20.721221 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:17:20.722805 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:17:20.725721 DCon42   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:17:20.747100 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:20.751082 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:23.778750 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:23.785124 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:27.461244 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:27.530376 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:27.543806 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:27.547963 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:17:29.479698 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:17:29.480608 DCon46   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:17:29.482220 DCon46   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:17:29.496149 DCon46   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:17:29.502287 DCon46   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:20.906398 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:20.911470 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:23.140562 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:18:23.142074 DCon42   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:18:23.145951 DCon42   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:18:23.171450 DCon46   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:23.233441 DCon46   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:31.174825 DCon42   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:18:31.179879 DCon42   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:18:31.220964 DCon46   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:31.225197 DCon46   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:33.109733 DCon49   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:33.114793 DCon49   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:33.127113 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:33.131056 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:35.577977 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:18:35.579575 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:18:35.582508 DCon49   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:18:35.603857 DCon47   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:35.610580 DCon47   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:39.214748 DCon46   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:39.270435 DCon46   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:18:41.233794 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:18:41.235251 DCon49   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:18:41.238129 DCon49   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:18:41.263009 DCon47   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:18:41.269485 DCon47   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:19:28.981959 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:19:28.986344 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:19:29.891966 DCon42   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:19:29.895325 DCon42   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:21:52.792311 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:52.792575 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:52.793068 DCon54   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:21:52.831191 DCon54   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:21:52.834568 DCon54   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:21:52.839316 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:52.839640 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:52.840077 DCon54   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:21:52.840622 DCon54   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:21:58.533683 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:58.534132 DCon54   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:21:58.631365 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:58.632257 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:21:58.831885 DCon55   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:58.837660 DCon55   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:22:02.221149 DCon54   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Could not open log file '/home/seas/VirtualBox VMs/debian/Logs/VBox.log.2' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:22:02.222706 DCon54   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Could not open log file '/home/seas/VirtualBox VMs/debian/Logs/VBox.log.3' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:22:02.223008 DCon54   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Could not open log file '/home/seas/VirtualBox VMs/debian/Logs/VBox.log.4' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:22:03.530232 DCon53   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:22:03.598508 DCon53   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:22:03.603169 DCon53   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:22:03.606797 DCon53   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:22:21.006666 DCon53   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:22:21.011241 DCon53   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:22:25.993080 DCon54   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:22:26.001295 DCon54   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:22:53.359536 DCon55   Launched VM: 184153872 pid: 52657 (0xcdb1) frontend: GUI/Qt name: debian
+00:22:53.426409 DCon56   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.426984 DCon57   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.480576 DCon58   Platform architecture set to 'x86'
+00:22:53.495384 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.495908 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.769672 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.770048 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.793158 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.793531 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.795306 DCon61   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:22:53.808421 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:22:53.808920 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.809021 DCon61   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.821407 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.835169 DCon60   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.853119 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.853398 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.853894 DCon55   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:22:53.888505 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.889063 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.966653 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:22:53.967130 DCon55   HostDnsMonitorProxy::GetDomainName: no domain set
+00:22:53.967185 DCon55   HostDnsMonitorProxy::GetNameServers:
+00:22:53.967188 DCon55     name server 1: 127.0.0.53
+00:22:53.967246 DCon55   HostDnsMonitorProxy::GetSearchStrings:
+00:22:53.967251 DCon55     no search string entries
+00:22:53.978311 DCon60   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.979117 DCon60   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:53.980239 DCon60   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:22:54.004954 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:54.039727 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:54.040142 DCon55   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:54.193659 DCon55   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:22:54.196264 DCon56   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:22:54.197047 DCon55   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:22:54.199428 DCon56   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:22:54.214197 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:22:54.215053 DCon53   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:23:30.643657 DCon56   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:23:30.699217 DCon56   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:23:30.790438 DCon57   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:23:30.792758 DCon57   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:23:31.409860 DCon54   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:23:31.414646 DCon54   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:26:42.208659 DCon55   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:26:42.212888 DCon55   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:26:42.229563 DCon67   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:26:42.229937 DCon67   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:26:46.032186 DCon68   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:26:46.036918 DCon68   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:26:46.110201 DCon67   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:26:46.111931 DCon67   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:28:12.219990 DCon64   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:28:12.225283 DCon64   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:28:12.304271 DCon57   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:28:12.305969 DCon57   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:28:46.147986 DCon57   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:28:46.205615 DCon57   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:28:46.278512 DCon73   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:28:46.280325 DCon73   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:30:36.685545 DCon72   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:30:36.689617 DCon72   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:30:36.730086 DCon60   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:30:36.730557 DCon60   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:30:37.920692 DCon78   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:30:37.925743 DCon78   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:30:38.000096 DCon78   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:30:38.002081 DCon78   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:34:37.030060 DCon84   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:34:37.035078 DCon84   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:34:37.134964 DCon77   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:34:37.138163 DCon77   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:34:38.518512 DCon87   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:34:38.523622 DCon87   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:34:40.709536 DCon87   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:34:40.714458 DCon87   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:34:41.797161 DCon87   Saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:34:41.801820 DCon87   Finished saving settings file "/home/seas/.config/VirtualBox/VirtualBox.xml"
+00:38:51.748851 DCon95   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:38:51.754108 DCon95   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:38:56.883749 DCon77   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:38:56.885800 DCon77   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:38:56.895592 DCon77   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:38:56.930341 DCon96   Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:38:56.934536 DCon96   Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:46:05.074502 DCon112  Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:46:05.092370 DCon112  Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:46:05.839598 DCon115  Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:46:05.856093 DCon115  Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:47:25.762130 DCon113  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:47:25.763926 DCon113  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:47:25.766152 DCon113  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:47:30.197887 DCon116  Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:47:30.377780 DCon116  Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:47:30.411671 DCon121  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:47:30.412697 DCon121  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:47:30.414243 DCon121  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:47:30.417094 DCon121  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+00:47:30.476598 DCon121  Saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:47:30.495220 DCon121  Finished saving settings file "/home/seas/VirtualBox VMs/debian/debian.vbox"
+00:47:30.505616 DCon119  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:47:30.505937 DCon119  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:47:30.506352 DCon119  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:47:30.869408 DCon117  ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:47:36.496074 main     VirtualBox: object deletion starts
+00:47:36.496150 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/seas/VirtualBox VMs/debian/debian.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:47:36.497799 main     HostDnsMonitor: shutting down ...
+00:47:36.498336 main     HostDnsMonitor: shut down
+00:47:36.510063 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:47:36.510191 main     VirtualBox: object deleted
